@@ -1,5 +1,32 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "2.0.36",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "com.mirrorng.mirrorng": {
+      "version": "59.0.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "nuget.mono-cecil": "0.1.6-preview",
+        "com.cysharp.unitask": "2.0.36"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.mirrorng.websocket": {
+      "version": "2.1.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.mirrorng.mirrorng": "43.3.2",
+        "com.cysharp.unitask": "2.0.36"
+      },
+      "url": "https://package.openupm.com"
+    },
     "com.unity.collab-proxy": {
       "version": "1.2.16",
       "depth": 0,
@@ -65,6 +92,13 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "nuget.mono-cecil": {
+      "version": "0.1.6-preview",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

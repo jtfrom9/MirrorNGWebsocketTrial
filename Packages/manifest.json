@@ -37,6 +37,20 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
-  }
+    "com.unity.modules.xr": "1.0.0",
+    "com.mirrorng.mirrorng": "59.0.5",
+    "com.mirrorng.websocket": "2.1.0"
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.cysharp.unitask",
+        "com.mirrorng.mirrorng",
+        "com.mirrorng.websocket",
+        "com.openupm"
+      ]
+    }
+  ]
 }
